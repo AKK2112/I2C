@@ -90,7 +90,7 @@ void loop() {
       digitalWrite(D5, HIGH);
     } 
       else {
-      digitalWrite(D5, LOW);
+      digitalWrite(D5, LOW);//if the value isnt met, the light remains off.
     }
   
     //when the proximity value is greater than 8 and less than 100, it will turn on pin D6 
@@ -100,7 +100,7 @@ void loop() {
       digitalWrite(D6, HIGH);
     } 
       else {
-      digitalWrite(D6, LOW);
+      digitalWrite(D6, LOW); //if the value isnt met, the light remains off. 
     }
  
    //when the proximity value is greater than 100, it will turn on pin D7
@@ -110,6 +110,6 @@ void loop() {
       digitalWrite(D7 ,HIGH);
     } 
       else {
-      digitalWrite(D7, LOW);
+      digitalWrite(D7, LOW);//if the value isnt met, the light remains off.
     }
 }
